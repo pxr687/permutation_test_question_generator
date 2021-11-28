@@ -5,7 +5,7 @@ First version of a permutation test question generator. This probabilistically g
 The notebook that a user will see is `permutation_test_question_generator.ipynb`. This notebook imports the question generating functions (and question marking functions) from `permutation_test_question_generator.py`.
 
 This notebook be used interactively on Deepnote via the following link:
-https://deepnote.com/project/Permutation-Test-Question-Generator-2JLC6USpQ0CpwEEfUlg1LQ/%2Fpermutation_test_question_generator%2Fpermutation_test_question_gen.ipynb
+https://deepnote.com/project/Permutation-Test-Question-Generator-JHSmvd00SfSJn5-Mj7bQcw/%2Fpermutation_test_question_generator%2Fpermutation_test_question_gen.ipynb
 
 Currently, there is only one question generating function, which generates data for a two-sample permutation test of a difference in means.
 
