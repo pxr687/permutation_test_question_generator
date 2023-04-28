@@ -303,7 +303,8 @@ the sum of the boolean array.
 Once you have counted the number of simulated mean differences were greater than or equal to the actual
 mean difference, you should divide the count by the number of simulated scores (10000)."""
 
-    # return the dataframe for the user to get the data from, the correct p-value to compare the user's against, and the two hint strings
+    # return the dataframe for the user to get the data from, the correct 
+    # p-value to compare the user's against, and the two hint strings
 
     return (df, answer_p, hint_test, hint_p_value)
 
@@ -352,7 +353,7 @@ a hint by running the following command in an empty cell:
 
 `display(Markdown(hint_test))`'''))
             display(Markdown('''
-To check you are calculating the p-value correctly, consider checking out a hint by running the following command in an 
-empty cell:
+To check you are calculating the p-value correctly, consider checking out a hint
+by running the following command in an empty cell:
 
 `display(Markdown((hint_p_value))`'''))
