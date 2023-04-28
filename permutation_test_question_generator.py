@@ -174,7 +174,7 @@ convince us that the drug works.'''))
 \nTo get the actual mean difference, subtract the mean {str(outcome.replace('_', ' '))}
 of the drug group from the mean {outcome.replace('_', ' ')} of the placebo group
 . E.g:'''))
-    display(Markdown('\nmean difference = placebo mean - drug mean'))
+    display(Markdown('\n`mean difference = placebo mean - drug mean`'))
 
     # performing a permutation test to get a p-value to check the user's p-value against
 
@@ -214,13 +214,13 @@ section.'''
 If you need a hint about what to do for the actual permutation test, run the 
 following command in an empty cell:
 
-display(Markdown((hint_test))'''))
+`display(Markdown((hint_test))`'''))
     display(Markdown('''
 If you need a hint about how to calculate the p-value from your permutation test
 run the following command in an empty 
 cell:
 
-print(hint_p_value))'''))
+`display(Markdown(hint_p_value))`'''))
 
     # defining a hint string to explain what the user's permutation test should
     # do, if the user is stuck
@@ -254,7 +254,7 @@ between the two fake groups, and store this difference in the results array.
                    
 * You should then calculate a p-value by calculating the proportion of the simulated
 mean differences which are greater than or equal to the actual mean difference
-(placebo mean - drug mean)"""
+(`placebo mean - drug mean`})"""
 
     # defining a hint string to explain how to calculate the p-value, if the user is stuck
 
@@ -340,7 +340,7 @@ display(Markdown(hint_test))'''))
 To check you are calculating the p-value correctly, consider checking out a hint
 by running the following command in an empty cell:
 
-print(hint_p_value))'''))
+display(Markdown(hint_p_value))'''))
 
         if answer_p < my_p_value:
             display(Markdown('\nHmmm, your p-value is too large.'))
@@ -350,9 +350,9 @@ print(hint_p_value))'''))
 To check you are running the permutation test correctly, consider checking out 
 a hint by running the following command in an empty cell:
 
-display(Markdown(hint_test))'''))
+`display(Markdown(hint_test))`'''))
             display(Markdown('''
 To check you are calculating the p-value correctly, consider checking out a hint by running the following command in an 
 empty cell:
 
-display(Markdown((hint_p_value))'''))
+`display(Markdown((hint_p_value))`'''))
