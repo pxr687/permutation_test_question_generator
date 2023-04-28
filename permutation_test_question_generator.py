@@ -222,7 +222,8 @@ cell:
 
 print(hint_p_value))'''))
 
-    # defining a hint string to explain what the user's permutation test should do, if the user is stuck
+    # defining a hint string to explain what the user's permutation test should
+    # do, if the user is stuck
 
     hint_test = \
         """
