@@ -1,6 +1,6 @@
 # permutation_test_question_generator
 
-First version of a permutation test question generator. This probabilistically generates data and instructs the user to carry out a permutation test on the data. There is also a function for the user to compare their p-value to a precomputed p-value, to check they have done the test correctly.
+First version of a permutation test question generator. This probabilistically generates some hypothetical parallel groups clinical trial data and instructs the user to carry out a permutation test on it. There is also a function for the user to compare their p-value to a precomputed p-value, to check they have done the test correctly.
 
 The notebook that a user will see is `permutation_test_question_generator.ipynb`. This notebook imports the question generating functions (and question marking functions) from `permutation_test_question_generator.py`.
 
@@ -10,4 +10,3 @@ https://deepnote.com/project/Permutation-Test-Question-Generator-JHSmvd00SfSJn5-
 Currently, there is only one question generating function, which generates data for a two-sample permutation test of a difference in means.
 
 In the future, maybe a question generating function for a two sample permutation test of proportions etc. could also be added.
-
