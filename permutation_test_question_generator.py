@@ -122,6 +122,7 @@ Participants were randomly assigned to each group.
 
     _plt.figure()
     _plt.hist(sample_1, color=two_colours[0], label='placebo', bins=6)
+    _plt.axvline(sample_1.mean(), color='red', label='placebo group average')
 
     # plotting the other sample, invisibly, to ensure the axes are comparable on both plots
 
@@ -134,6 +135,7 @@ Participants were randomly assigned to each group.
 
     _plt.figure()
     _plt.hist(sample_2, color=two_colours[1], label='drug', bins=6)
+    _plt.axvline(sample_2.mean(), color='blue', label='drug group average')
 
     # plotting the other sample, invisibly, to ensure the axes are comparable on both plots
 
